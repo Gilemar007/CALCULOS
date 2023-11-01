@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    
+}
+.caixa{
+    width: 400px;
+    height: 400px;
+    border: double red 22px;
+    padding: 30px;
+    margin: auto;
+}
+
+#input{
+    font-size: 18pt;
+    border: 1px solid black;
+}
+
+#button{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: green;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 10px;
+}
