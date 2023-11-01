@@ -35,7 +35,20 @@ body {
     font-size: 14pt;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px ) {
+    .caixa {
+        width: 70%; 
+        height: 450px;
+    }
+
+    #button {
+        width: 80%; /* Ajusta a margem esquerda para telas menores */
+        height: 35px;
+        margin-top: 30px;
+        font-size: 13pt;
+    }
+}
+@media screen and (min-width: 760px) {
     .caixa {
         width: 70%; 
         height: 450px;
